@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,rgb(122, 30, 30),rgb(14, 174, 174));
+}
+
+h2 {
+  font-size: 27px;
+  color: brown;
+  padding-top: 10px;
+}
+form {
+  color: brown;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100%;
+  border: none;
+  border-radius: 13px;
+  text-align: center;
+  gap: 10px;
+  font-family:poppins, Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: rgb(198, 255, 255);
+  color:black;
+  border: none;
+  border-radius: 5px;
+
+}
+input:focus,textarea:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: 0 0 8px blue; 
+
+}
+p {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 130px;
+}
+/* .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+} */
+
+label {
+  padding-right: 10px;
+}
+textarea {
+  width: 300px;
+  height: 150px;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: rgb(198, 255, 255);
+  border: none;
+  border-radius: 10px;
+  color: black;
+}
+.textArea {
+  display: flex;
+}
+
+
+
+.userMessage {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+
+}
+
+button {
+  color:aqua;
+  background-color: brown;
+  
+}
+
+button:active {
+  color: brown;
+  background-color: rgb(71, 115, 115);
+}
+
+@media(max-width:400px){
+  h2 {
+    font-size: 20px;
+    
+  }
+  form {
+    width: 350px;
+  }
+  input {
+    width: 250px;
+  }
+  textarea {
+    width: 200px;
+    padding-right: 30px ;
+    
+  }
+  .userMessage {
+    padding-left: 15px;
+  }
+
+}
+
+
