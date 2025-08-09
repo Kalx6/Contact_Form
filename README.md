@@ -35,8 +35,8 @@ As a junior developer, I’m proud of this project as it demonstrates my ability
 
 ## Screenshot
 
-![Contact Form Screenshot](/assets/Screenshot_20250809_124136.png)
-![Contact Form Screenshot](/assets/Screenshot_20250809_124303.png)
+![Contact Form Screenshot](./src/assets/Screenshot_20250809_124136.png)
+![Contact Form Screenshot](./src/assets/Screenshot_20250809_124303.png)
 
 ---
 
