@@ -1,69 +1,63 @@
-# React + TypeScript + Vite
+# Contact Form Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a **Contact Form** built with **React** and **TypeScript**, styled with plain **CSS**.  
+It leverages **React Hook Form** for easy and effective form management and validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The form includes:
 
-## Expanding the ESLint configuration
+- Required field validation that shows error messages if inputs are empty.
+- Email validation that detects invalid email formats and displays appropriate error messages.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+As a junior developer, I’m proud of this project as it demonstrates my ability to build clean, accessible, and user-friendly forms using modern React practices.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Technologies Used
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- React
+- TypeScript
+- React Hook Form
+- CSS
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Features
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Real-time validation feedback
+- Clear and concise error messages
+- Styled with custom CSS for a clean UI
+
+---
+
+---
+
+## Screenshot
+
+![Contact Form Screenshot](/assets/Screenshot_20250809_124136.png)
+![Contact Form Screenshot](/assets/Screenshot_20250809_124303.png)
+
+---
+
+## How to Run
+
+1. Clone the repository
+2. Run `npm install` or `yarn` to install dependencies
+3. Run `npm start` or `yarn start` to launch the app locally
+
+---
+
+## Future Improvements
+
+- Add more input fields (phone, message, etc.)
+- Connect the form to a backend API for submitting contact requests
+- Enhance accessibility features
+
+---
+
+## Author
+
+Junior Developer passionate about React and modern web development.
+
+---
